@@ -13,6 +13,6 @@
         "mkraemer/garmin-connect-sso": "Allows signing in into GarminConnect SSO"
     },
     "autoload": {
-        "psr-4": { "MKraemer\\GarminConnect\\ActivityUploader": "src" }
+        "psr-4": { "MKraemer\\GarminConnect\\ActivityUploader\\": "src" }
     }
 }
