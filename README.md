@@ -9,8 +9,8 @@ The following examples makes use of mkraemer/GarminConnectSSO to obtain the cook
 ```php
 
 use GuzzleHttp\Client as HttpClient;
-use MKraemer\GarminConnectSSO\SSO as GarminConnectSSO;
-use MKraemer\GarminConnectActivityUploader\ActivityUploader as GarminConnectActivityUploader;
+use MKraemer\GarminConnect\SSO\SSO as GarminConnectSSO;
+use MKraemer\GarminConnect\ActivityUploader\ActivityUploader as GarminConnectActivityUploader;
 
 $client = new HttpClient();
 
