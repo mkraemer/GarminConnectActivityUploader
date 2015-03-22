@@ -1,0 +1,18 @@
+{
+    "name": "mkraemer/garmin-connect-activity-uploader",
+    "authors": [
+        {
+            "name": "Marius Krämer",
+            "email": "marius@marius-kraemer.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~5"
+    },
+    "suggest": {
+        "mkraemer/garmin-connect-sso": "Allows signing in into GarminConnect SSO"
+    },
+    "autoload": {
+        "psr-4": { "MKraemer\\GarminConnect\\ActivityUploader": "src" }
+    }
+}
